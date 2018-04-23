@@ -1,7 +1,7 @@
 'use strict';
 
 const chalk = require('chalk');
-const generateCharacter = require('./lib').default;
+const generateCharacter = require('this-is-your-life-cli').default;
 
 console.log(chalk.blue('Generating Random Character'))
 console.log(generateCharacter())
