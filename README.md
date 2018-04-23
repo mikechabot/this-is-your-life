@@ -1,7 +1,8 @@
 [![npm version](https://badge.fury.io/js/this-is-your-life-cli.svg)](https://badge.fury.io/js/this-is-your-life-cli)
 [![Dependency Status](https://david-dm.org/mikechabot/this-is-your-life.svg)](https://david-dm.org/mikechabot/this-is-your-life)
 
-## CLI Implementation of https://github.com/trwolfe13/this-is-your-life
+## this-is-your-life-cli
+CLI Implementation of https://github.com/trwolfe13/this-is-your-life
 
 ### Install globally
 1. `npm install -g this-is-your-life-cli`
