@@ -1,8 +1,9 @@
 {
   "name": "this-is-your-life-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate character backstories based on the Xanathar's Guide to Everything 'This Is Your Life' tables.",
-  "main": "./src/index.js",
+  "main": "./index.js",
+  "bin": "./index.js",
   "scripts": {
     "build": "babel src -d lib",
     "example": "node example.js",
