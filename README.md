@@ -31,9 +31,14 @@ $ this-is-your-life-cli '' '' Monk
 
 ### Install as module
 
-```
-const generateCharacter = require('this-is-your-life-cli').default;
+#### CommonJS
+`const generateCharacter = require('this-is-your-life-cli/lib').default;`
 
+#### ES6
+
+`import generateCharacter from 'this-is-your-life-cli/lib/';`
+
+```
 console.log(chalk.blue('Generating Random Character'))
 console.log(generateCharacter())
 
